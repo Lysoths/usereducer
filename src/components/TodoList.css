@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ddd;
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+}
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+.todos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid orange;
+  max-width: 270px;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: White;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.568);
+  width: 300px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+}
+
+input::placeholder {
+  color: red;
+}
+
+input {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  width: 260px;
+}
+
+.App {
+  background-color: rgb(247, 245, 245);
+  width: 500px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.edit:hover {
+  color: rgb(180, 169, 12);
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.confirm {
+  margin-left: 5px;
+}
+
+.confirm:hover {
+  color: rgb(40, 158, 17);
+  cursor: pointer;
+}
+
+.complated {
+  text-decoration: line-through;
+  background-color: green;
+}
