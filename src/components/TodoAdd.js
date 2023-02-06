@@ -17,6 +17,7 @@ const TodoAdd = ({ todos, setTodos }) => {
         value: enteredTask,
         complated: "",
       });
+      setEnteredTask("");
     }
   };
 
